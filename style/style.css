@@ -1,0 +1,801 @@
+body{
+    left: 0;
+    top: 0;
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #fff;
+    background-image: url("./asset/background/steve_front_block_bkg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.front_block{
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+    scrollbar-width: none;
+}
+.title_text{
+    text-align: center;
+    font-size: 14.223rem;
+    padding: 1rem 8.75% 0;
+}
+.title_text .color_letter{
+    background: linear-gradient(10.08deg, #B03AC6 19.6%, #52A2DB 48.36%, #0BEFAA 77.96%);;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.mob_link_list{
+    display: none;
+}
+.mobile_steve_img{
+    display: none;
+}
+.token_name{
+    text-align: center;
+    font-size: 14.223rem;
+    margin-top: -5rem;
+}
+.but_token_link{
+    position: relative;
+    margin-top: 1rem;
+    z-index: 999;
+}
+.link_btn{
+    color: #000;
+    text-decoration: none;
+    padding: 19px 46px 25px;
+    background-color: #fff;
+    font-size: 3.875rem;
+    position: absolute;   
+    left: 50%;
+    transform: translateX(-50%);
+}
+.leaf_item{
+    position: absolute;
+    animation: moveUpDown 2s ease-in-out infinite;
+}
+@keyframes moveUpDown{
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+@keyframes moveDownUp {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(10px);
+    }
+}
+.leaf_item_left{
+    left: 0;
+    top: 3rem;
+}
+.leaf_item_right{
+    right: 0;
+    top: 10rem;
+}
+.lambo_block_links{
+    margin-top: 7rem;
+    position: relative;
+    animation: 2s show ease-in-out;
+}
+@keyframes show {
+    0%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-20%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+.link_item{
+    position: absolute;
+    z-index: 999;
+}
+.first_item{
+    top: 19rem;
+    left: 25rem;
+}
+.eagle{
+    width: 85.33px;
+    height: 85.89px;
+}
+.second_item{
+    top: 19rem;
+    left: 33rem;
+}
+.dextool{
+    width:68.48px;
+    height: 78.83px;
+}
+.dextool img{
+    width:68.48px;
+    height: 78.83px;
+    transform: rotateX(-175deg);
+}
+.third_item{
+    top: 18.81rem;
+    left: 42rem;
+}
+.telegram{
+    width: 80.28px;
+    height: 64.91px;
+}
+.telegram img{
+    width: 80.28px;
+    height: 64.91px;
+}
+.fourth_item{
+    top: 17rem;
+    left: 51.5rem;
+}
+.x{
+    width: 76.18px;
+    height: 63.99px;
+}
+.steve_block{
+    position: absolute;
+    right: 0;
+    top: 18rem;
+}
+.contract_address{
+    text-align: center;
+    font-size: 2.25rem;
+    margin-top: -5rem;
+}
+.context_block{
+    position: relative;
+}
+.context_text{
+    color: #fff;
+    display: block;
+    position: absolute;
+    left: 10%;
+}
+.fresh_text{
+    font-size: 8.25rem;
+    line-height: 130px;
+    margin-top: 3.813rem;
+}
+.cryptoplayer_text{
+    font-size: 8.25rem;
+    line-height: 150px;
+}
+.is_here_text{
+    font-size: 16.375rem;
+    line-height: 230px;
+}
+.steve_text{
+    font-size: 18.134rem;
+    line-height: 300px;
+}
+.will_do_text{
+    font-size: 12.042rem;
+    line-height: 120px;
+}
+.context_text .contract_address{
+    font-size: 3.023rem;
+    line-height: 150px;
+    margin-top: .25rem;
+}
+.steve_will_img{
+    position: absolute;
+    right: 6.61%;
+    top: 2.5rem;
+}
+.steve_will_img img{
+    animation: moveDownUp 2s ease-in-out infinite;
+}
+.link_soc_list{
+    position: relative;
+    z-index: 999;
+}
+.soc_item{
+    position: absolute;
+}
+.soc_eagle{
+    left: 50px;
+    transform: rotate(15deg);
+    top: -2rem;
+}
+.soc_dextool{
+    left: 14rem;
+}
+.soc_dextool img{
+    transform: rotate(175deg);
+    width: 81.63px;
+    height:93.97px;
+}
+.soc_telegram{
+    left: 25rem;
+    top: 2rem;
+}
+.soc_telegram img{
+    transform: rotate(10deg);
+}
+.soc_x{
+    left: 35rem;
+    top: 2.15rem;
+}
+.soc_x img{
+    transform: rotate(8deg);
+}
+.leaf_2_left{
+    left: 0;
+    margin-top: -15rem;
+}
+.leaf_2_right{
+    right: 0;
+    margin-top: -12rem;
+}
+.leaf_3_left{
+    left: 0;
+    top: 36rem;
+}
+.leaf_3_right{
+    right: 0;
+    top: 38.5rem;
+}
+@media screen and (max-width: 1681px){
+    .lambo_block_links .lambo img{
+        width: 1200px;
+    }
+    .steve_block img{
+        width: 800px;
+    }
+    .leaf_item_left {
+        top: 0rem;
+    }
+    .leaf_item_left img{
+        width: 400px;
+    }
+    .leaf_item_right img{
+        width: 250px;
+    }
+    .leaf_3_left {
+        top: 25rem;
+    }
+    .leaf_3_left img{
+        width: 250px;
+    }
+    .leaf_2_left img{
+        width: 400px;
+    }
+    .leaf_3_right {
+        top: 30rem;
+    }
+    .leaf_2_right img{
+        width: 450px;
+    }
+    .leaf_3_right img{
+        width: 200px;
+    }
+    .steve_will_img {
+        top: 0;
+    }
+    .steve_will_img .steve_will_image{
+        width: 600px;
+    }
+    .title_text {
+        font-size: 10rem;
+    }
+    .token_name {
+        font-size: 10rem;
+    }
+    .fresh_text{
+        font-size: 5.25rem;
+        line-height: 80px;
+        margin-top: 3.813rem;
+    }
+    .cryptoplayer_text{
+        font-size: 5.25rem;
+        line-height: 100px;
+    }
+    .is_here_text{
+        font-size: 13.375rem;
+        line-height: 180px;
+    }
+    .steve_text{
+        font-size: 15.134rem;
+        line-height: 280px;
+    }
+    .will_do_text{
+        font-size: 9.042rem;
+        line-height: 110px;
+    }
+    .context_text .contract_address{
+        font-size: 2rem;
+        line-height: 150px;
+        margin-top: .25rem;
+    }
+}
+@media screen and (max-width: 1580px){
+    .lambo_block_links {
+        margin-top: 4rem;
+    }
+}
+@media screen and (max-width: 1441px){
+    .title_text {
+        font-size: 8rem;
+    }
+    .token_name {
+        font-size: 8rem;
+        margin-top: -3rem;
+    }
+    .link_btn{
+        font-size: 3rem;
+    }
+    .lambo_block_links .lambo img {
+        width: 1000px;
+    }
+    .first_item {
+        top: 14rem;
+        left: 17rem;
+    }
+    .second_item {
+        top: 16rem;
+        left: 26rem;
+    }
+    .third_item {
+        top: 16.81rem;
+        left: 35rem;
+    }
+    .fourth_item {
+        top: 15rem;
+        left: 43.5rem;
+    }
+    .steve_block img {
+        width: 700px;
+    }
+    .context_text{
+        left: 8%;
+    }
+    .fresh_text {
+        font-size: 4.5rem;
+        line-height: 60px;
+    }
+    .cryptoplayer_text {
+        font-size: 5.5rem;
+        line-height: 80px;
+    }
+    .is_here_text {
+        font-size: 11rem;
+        line-height: 140px;
+    }
+    .steve_text {
+        font-size: 12rem;
+        line-height: 210px;
+    }
+    .will_do_text {
+        font-size: 8.042rem;
+        line-height: 110px;
+    }
+    .steve_will_img .steve_will_image {
+        width: 550px;
+    }
+    .soc_dextool {
+        left: 10rem;
+    }
+    .soc_telegram {
+        left: 19rem;
+    }
+    .soc_x {
+        left: 28rem;
+        top: 1.15rem;
+    }
+}
+@media screen and (max-width: 1281px){
+    .leaf_3_left {
+        top: 20rem;
+    }
+    .leaf_3_right {
+        top: 25rem;
+    }
+    .context_text .contract_address {
+        line-height: 115px;
+    }
+}
+@media screen and (max-width: 1025px){
+    .title_text {
+        font-size: 5rem;
+    }
+    .token_name {
+        font-size: 5rem;
+        margin-top: -2rem;
+    }
+    .link_btn{
+        padding: 12px 35px 16px;
+        font-size: 2rem;
+    }
+    .leaf_item_left img {
+        width: 250px;
+    }
+    .leaf_item_right img {
+        width: 200px;
+    }
+    .leaf_item_right {
+        top: 5rem;
+    }
+    .lambo_block_links .lambo img {
+        width: 700px;
+    }
+    .steve_block img {
+        width: 500px;
+    }
+    .first_item {
+        top: 10rem;
+        left: 10rem;
+    }
+    .second_item {
+        top: 11rem;
+        left: 17.5rem;
+    }
+    .third_item {
+        top: 11rem;
+        left: 24rem;
+    }
+    .fourth_item {
+        top: 10rem;
+        left: 31rem;
+    }
+    .leaf_2_left {
+        margin-top: -3rem;
+    }
+    .leaf_2_left img {
+        width: 200px;
+    }
+    .leaf_3_left img {
+        width: 150px;
+    }
+    .leaf_2_right img {
+        width: 300px;
+    }
+    .contract_address{
+        font-size: 1.75rem;
+        margin-top: -2rem;
+    }
+    .leaf_2_right {
+        margin-top: 0;
+    }
+    .steve_will_img .steve_will_image {
+        width: 400px;
+    }
+    .fresh_text {
+        font-size: 3.5rem;
+    }
+    .cryptoplayer_text {
+        font-size: 4.5rem;
+    }
+    .is_here_text {
+        font-size: 9rem;
+        line-height: 100px;
+    }
+    .steve_text {
+        font-size: 10rem;
+        line-height: 175px;
+    }
+    .will_do_text {
+        font-size: 6.75rem;
+        line-height: 90px;
+    }
+    .leaf_3_right img {
+        width: 150px;
+    }
+    .soc_eagle {
+        left: 15px;
+        top: 0rem;
+    }
+    .soc_dextool {
+        left: 7rem;
+        top: 1rem;
+    }
+    .soc_telegram {
+        left: 13rem;
+        top: 3rem;
+    }
+    .soc_x {
+        left: 19rem;
+        top: 2rem;
+    }
+    .steve_will_img {
+        top: 50px;
+    }
+}
+@media  screen and (max-width: 431px) {
+    body{
+        background-image: url("./asset/background/mobile_bkg.png");
+    }
+    .front_block{
+    }
+    .title_text {
+        font-size: 5rem;
+        line-height: 75px;
+    }
+    .lambo_block_links .lambo img {
+        width: 380px;
+    }
+    .contract_address {
+        font-size: 1rem;
+        margin-top: 0rem;
+    }
+    .leaf_2_left {
+        display: none;
+    }
+    .leaf_3_left {
+        display: none;
+    }
+    .leaf_2_right{
+        display: none;
+    }
+    .leaf_3_right{
+        display: none;
+    }
+    .title_text{
+        padding: 5rem 8.75% 15px;
+    }
+    .leaf_item_right img {
+        width: 120px;
+    }
+    .link_btn{
+        font-size: 1.5rem;
+    }
+    .leaf_item_right {
+        top: 18rem;
+    }
+    .leaf_item_left img {
+        width: 140px;
+    }
+    .leaf_item_left {
+        top: 24rem;
+    }
+    .but_token_link {
+        margin-top: 39rem;
+        z-index: 99999;
+    }
+    .link_btn{
+        margin-top: -8rem;
+    }
+    .lambo_block_links {
+        margin-top: -18rem;
+    }
+    .steve_block img {
+        width: 360px;
+    }
+    .steve_block .steve_img{
+        display: none;
+    }
+    .first_item {
+        top: 18rem;
+        left: 2rem;
+    }
+    .second_item {
+        top: 18rem;
+        left: 8.5rem;
+    }
+    .third_item {
+        top: 19rem;
+        left: 14rem;
+    }
+    .fourth_item {
+        top: 18rem;
+        left: 20rem;
+    }
+    .fourth_item img{
+        transform: rotate(15deg);
+    }
+    .cryptoplayer_text {
+        font-size: 3.5rem;
+    }
+    .is_here_text {
+        font-size: 7rem;
+        line-height: 90px;
+    }
+    .steve_text {
+        font-size: 7.5rem;
+    }
+    .will_do_text {
+        font-size: 5rem;
+        line-height: 60px;
+    }
+    .context_text .contract_address {
+        font-size: 1.25rem;
+    }
+    .steve_will_img {
+        top: 41rem;
+    }
+    .mobile_steve_img{
+        display: block;
+    }
+    .first_item {
+        top: 20rem;
+    }
+    .second_item {
+        top: 20rem;
+    }
+    .third_item{
+        top: 20rem;
+    }
+    .fourth_item{
+        top: 20rem;
+    }
+
+    .fresh_text{
+        margin-top: 3rem;
+    }
+    .contract_address {
+        font-size: 1.25rem;
+        margin-top: 10rem;
+    }
+    .link_btn {
+        margin-top: -5rem;
+        width: 250px;
+        text-align: center;
+        margin-left: 35%;
+    }
+    .but_token_link {
+        width: 250px;
+    }
+    .footer_link{
+        margin-top: 85rem;
+    }
+    .soc_eagle{
+        left: 4rem;
+        top: 2rem;
+        transform: rotate(0deg);
+    }
+    .eagle{
+        left: 4rem;
+        top: 4rem;
+        transform: rotate(0deg);
+    }
+    .soc_eagle img{
+        width: 49px;
+        height: 59px;
+    }
+    .eagle img{
+        width: 49px;
+        height: 59px;
+    }
+    .soc_dextool{
+        left: 9rem;
+        top: 2rem;
+    }
+    .dextool{
+        left: 9rem;
+        top: 2rem;
+    }
+    .soc_dextool img{
+        transform: rotate(175deg);
+        width: 49px;
+        height: 56px;
+    }
+    .dextool img{
+        transform: rotate(175deg);
+        width: 49px;
+        height: 56px;
+    }
+    .soc_telegram{
+        left: 13rem;
+        top: 2rem;
+    }
+    .telegram{
+        left: 13rem;
+        top: 1rem;
+    }
+    .soc_telegram img{
+        width: 57px;
+        height: 47px;
+    }
+    .telegram img{
+        width: 57px;
+        height: 47px;
+    }
+    .soc_x{
+        left: 18rem;
+        top: 2rem;
+        transform: rotate(15deg);
+    }
+    .x{
+        left: 18rem;
+        top: 2rem;
+        transform: rotate(15deg);
+    }
+    .x img{
+        width: 54px;
+        height: 46px;
+    }
+    .soc_x img{
+        width: 54px;
+        height: 46px;
+    }
+}
+
+@media screen and (max-width: 391px){
+    .title_text {
+        padding: 5rem 3.75% 15px;
+    }
+    .context_text {
+        left: 3%;
+    }
+    .steve_will_img .steve_will_image {
+        width: 350px;
+    }
+    .soc_eagle {
+        left: 2rem;
+    }
+    .soc_dextool {
+        left: 7rem;
+    }
+    .soc_telegram {
+        left: 12rem;
+        top: 2.35rem;
+    }
+    .soc_x {
+        left: 17rem;
+        top: 2.35rem;
+    }
+    .link_btn {
+        margin-left: 28%;
+    }
+}
+@media screen and (max-width: 376px){
+    .lambo_block_links .lambo img {
+        width: 370px;
+    }
+    .title_text {
+        padding: 5rem 1.5% 15px;
+    }
+    .fourth_item {
+        left: 18rem;
+    }
+    .second_item {
+        left: 6.5rem;
+    }
+    .third_item {
+        top: 20.5rem;
+        left: 11rem;
+    }
+    .fourth_item{
+        left: 17.5rem;
+        top: 20.5rem;
+    }
+    .link_btn {
+        margin-left: 25%;
+    }
+}
+@media screen and (max-width: 366px){
+    .lambo_block_links .lambo img {
+        width: 360px;
+    }
+    .cryptoplayer_text {
+        font-size: 3rem;
+        line-height: 60px;
+    }
+    .is_here_text {
+        font-size: 6rem;
+        line-height: 70px;
+    }
+    .steve_text {
+        font-size: 6.5rem;
+        line-height: 140px;
+    }
+
+    .will_do_text {
+        font-size: 4.25rem;
+        line-height: 40px;
+    }
+    .footer_link {
+        margin-top: 80rem;
+    }
+}
